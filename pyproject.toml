@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "image-benchmark"
+version = "0.1.0"
+description = ""
+authors = ["Eugene Morozov <jmv@emorozov.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^12.6.0"
+pillow = "^9.3.0"
+pyinstrument = "^4.4.0"
+richbench = "^1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
